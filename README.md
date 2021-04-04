@@ -8,6 +8,7 @@ A large number of the scripts are based on the PowerShell scripts created by Dav
 These scripts were created by and cloned from Matthew Pottinger's Github. Thanks Mat for all your help! https://github.com/matthewpottinger/BYOD-UK-Blueprint-AutoScripts
 
 Script information
+
 The following provides details on what each script does
 
 BYOD-MEA-MasterScript.ps1
@@ -52,6 +53,7 @@ DER-Import.ps1
 Imports Device Enrollement Restrictions into the tenant. Currently will be lowest priority after the Default policy
 
 Implementation Guide
+
 This script will implement all steps in the guidance. Except:
 MCAS Policies
 Locations and Location based policy
