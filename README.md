@@ -1,5 +1,5 @@
 # BYOD-MEA-Guidance-Autoscripts
-BYOD-UK-Blueprint-Auto
+BYOD-MEA-Guidance-Auto
 This GitHub is for Automating the BYOD MEA advice provided here: https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/133/2021/03/MEA-Blueprint-for-BYOD-Use-v1.0-Final-Version.pdf
 
 The full article can be found here:https://news.microsoft.com/en-xm/2021/03/18/how-to-have-secure-remote-working-with-a-byod-policy/
@@ -7,14 +7,13 @@ The full article can be found here:https://news.microsoft.com/en-xm/2021/03/18/h
 A large number of the scripts are based on the PowerShell scripts created by Dave Falkus which can be found here: https://github.com/davefalkus/powershell-intune-samples
 These scripts were created by and cloned from Matthew Pottinger's Github. Thanks Mat for all your help! https://github.com/matthewpottinger/BYOD-UK-Blueprint-AutoScripts
 
-Script information
-
+#Script information
 The following provides details on what each script does
 
-BYOD-MEA-MasterScript.ps1
+#BYOD-MEA-MasterScript.ps1
 Triggers the running of all other scripts
 
-AADGroups-Create.ps1
+#AADGroups-Create.ps1
 Creates the following Groups:
 
 BYOD-Good-Mobile Device-Users-Enabled
@@ -52,7 +51,7 @@ Imports App configuration Policies from the JSON\ACP Folder into tenant with the
 DER-Import.ps1
 Imports Device Enrollement Restrictions into the tenant. Currently will be lowest priority after the Default policy
 
-Implementation Guide
+#Implementation Guide
 
 This script will implement all steps in the guidance. Except:
 MCAS Policies
