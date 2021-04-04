@@ -7,6 +7,7 @@ The full article can be found here:
 https://news.microsoft.com/en-xm/2021/03/18/how-to-have-secure-remote-working-with-a-byod-policy/
 
 A large number of the scripts are based on the PowerShell scripts created by Dave Falkus which can be found here: https://github.com/davefalkus/powershell-intune-samples
+
 These scripts were created by and cloned from Matthew Pottinger's Github. Thanks Mat for all your help! https://github.com/matthewpottinger/BYOD-UK-Blueprint-AutoScripts
 
 # Script information
