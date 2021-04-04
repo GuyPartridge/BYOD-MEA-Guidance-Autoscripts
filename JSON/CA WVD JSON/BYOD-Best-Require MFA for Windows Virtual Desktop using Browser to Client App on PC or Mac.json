@@ -1,0 +1,76 @@
+{
+    "id":  "22d8ea35-5632-4c16-ab74-fa023ea151a5",
+    "displayName":  "BYOD-Best-Require MFA for Windows Virtual Desktop using Browser to Client App on PC or Mac",
+    "createdDateTime":  null,
+    "modifiedDateTime":  "2020-07-02T13:15:12.8587912Z",
+    "state":  "enabledForReportingButNotEnforced",
+    "sessionControls":  null,
+    "conditions":  {
+                       "userRiskLevels":  [
+
+                                          ],
+                       "signInRiskLevels":  [
+
+                                            ],
+                       "clientAppTypes":  [
+                                              "browser",
+                                              "mobileAppsAndDesktopClients"
+                                          ],
+                       "locations":  null,
+                       "deviceStates":  null,
+                       "devices":  null,
+                       "applications":  {
+                                            "includeApplications":  [
+                                                                        "9cdead84-a844-4324-93f2-b2e6bb768d07"
+                                                                    ],
+                                            "excludeApplications":  [
+
+                                                                    ],
+                                            "includeUserActions":  [
+
+                                                                   ]
+                                        },
+                       "users":  {
+                                     "includeUsers":  [
+
+                                                      ],
+                                     "excludeUsers":  [
+
+                                                      ],
+                                     "includeGroups":  [
+                                                           "BYOD-Best-PC-Users-Enabled "
+                                                       ],
+                                     "excludeGroups":  [
+                                                           "BYOD-Good-PC-Users-Enabled",
+                                                           "BYOD-Better-PC-Users-Enabled"
+                                                       ],
+                                     "includeRoles":  [
+
+                                                      ],
+                                     "excludeRoles":  [
+
+                                                      ]
+                                 },
+                       "platforms":  {
+                                         "includePlatforms":  [
+                                                                  "all"
+                                                              ],
+                                         "excludePlatforms":  [
+                                                                  "android",
+                                                                  "iOS"
+                                                              ]
+                                     }
+                   },
+    "grantControls":  {
+                          "operator":  "OR",
+                          "builtInControls":  [
+                                                  "mfa"
+                                              ],
+                          "customAuthenticationFactors":  [
+
+                                                          ],
+                          "termsOfUse":  [
+
+                                         ]
+                      }
+}

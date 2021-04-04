@@ -1,0 +1,79 @@
+{
+    "id":  "0bbf5bf6-1291-4f48-ac24-e1339effeea8",
+    "displayName":  "BYOD-Common-Block Legacy Authentication",
+    "createdDateTime":  "2020-07-02T13:10:05.2494197Z",
+    "modifiedDateTime":  null,
+    "state":  "enabledForReportingButNotEnforced",
+    "sessionControls":  null,
+    "conditions":  {
+                       "userRiskLevels":  [
+
+                                          ],
+                       "signInRiskLevels":  [
+
+                                            ],
+                       "clientAppTypes":  [
+                                              "exchangeActiveSync",
+                                              "other"
+                                          ],
+                       "locations":  null,
+                       "deviceStates":  null,
+                       "devices":  null,
+                       "applications":  {
+                                            "includeApplications":  [
+                                                                        "All"
+                                                                    ],
+                                            "excludeApplications":  [
+
+                                                                    ],
+                                            "includeUserActions":  [
+
+                                                                   ]
+                                        },
+                       "users":  {
+                                     "includeUsers":  [
+
+                                                      ],
+                                     "excludeUsers":  [
+
+                                                      ],
+                                     "includeGroups":  [
+                                                           "BYOD-Good-Mobile Device-Users-Enabled",
+                                                           "BYOD-Good-PC-Users-Enabled",
+                                                           "BYOD-Better-Mobile Device-Users-Enabled",
+                                                           "BYOD-Better-PC-Users-Enabled",
+                                                           "BYOD-Best-Mobile Device-Users-Enabled",
+                                                           "BYOD-Best-PC-Users-Enabled "
+                                                       ],
+                                     "excludeGroups":  [
+
+                                                       ],
+                                     "includeRoles":  [
+
+                                                      ],
+                                     "excludeRoles":  [
+
+                                                      ]
+                                 },
+                       "platforms":  {
+                                         "includePlatforms":  [
+                                                                  "all"
+                                                              ],
+                                         "excludePlatforms":  [
+
+                                                              ]
+                                     }
+                   },
+    "grantControls":  {
+                          "operator":  "OR",
+                          "builtInControls":  [
+                                                  "block"
+                                              ],
+                          "customAuthenticationFactors":  [
+
+                                                          ],
+                          "termsOfUse":  [
+
+                                         ]
+                      }
+}

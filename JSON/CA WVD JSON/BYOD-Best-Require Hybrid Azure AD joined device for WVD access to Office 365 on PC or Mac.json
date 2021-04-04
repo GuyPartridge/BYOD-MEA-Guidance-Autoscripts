@@ -1,0 +1,84 @@
+{
+    "id":  "4f29b9a6-f1e6-475f-9b60-59a5145a8f78",
+    "displayName":  "BYOD-Best-Require Hybrid Azure AD joined device for WVD access to Office 365 on PC or Mac",
+    "createdDateTime":  null,
+    "modifiedDateTime":  "2020-07-02T13:16:01.5261577Z",
+    "state":  "enabledForReportingButNotEnforced",
+    "conditions":  {
+                       "userRiskLevels":  [
+
+                                          ],
+                       "signInRiskLevels":  [
+
+                                            ],
+                       "clientAppTypes":  [
+                                              "browser",
+                                              "mobileAppsAndDesktopClients"
+                                          ],
+                       "locations":  null,
+                       "deviceStates":  null,
+                       "devices":  null,
+                       "applications":  {
+                                            "includeApplications":  [
+                                                                        "Office365"
+                                                                    ],
+                                            "excludeApplications":  [
+
+                                                                    ],
+                                            "includeUserActions":  [
+
+                                                                   ]
+                                        },
+                       "users":  {
+                                     "includeUsers":  [
+
+                                                      ],
+                                     "excludeUsers":  [
+
+                                                      ],
+                                     "includeGroups":  [
+                                                           "BYOD-Best-PC-Users-Enabled "
+                                                       ],
+                                     "excludeGroups":  [
+                                                           "BYOD-Better-PC-Users-Enabled",
+                                                           "BYOD-Good-PC-Users-Enabled"
+                                                       ],
+                                     "includeRoles":  [
+
+                                                      ],
+                                     "excludeRoles":  [
+
+                                                      ]
+                                 },
+                       "platforms":  {
+                                         "includePlatforms":  [
+                                                                  "all"
+                                                              ],
+                                         "excludePlatforms":  [
+                                                                  "android",
+                                                                  "iOS",
+                                                                  "macOS"
+                                                              ]
+                                     }
+                   },
+    "grantControls":  {
+                          "operator":  "OR",
+                          "builtInControls":  [
+                                                  "domainJoinedDevice"
+                                              ],
+                          "customAuthenticationFactors":  [
+
+                                                          ],
+                          "termsOfUse":  [
+
+                                         ]
+                      },
+    "sessionControls":  {
+                            "cloudAppSecurity":  null,
+                            "signInFrequency":  null,
+                            "persistentBrowser":  null,
+                            "applicationEnforcedRestrictions":  {
+                                                                    "isEnabled":  true
+                                                                }
+                        }
+}

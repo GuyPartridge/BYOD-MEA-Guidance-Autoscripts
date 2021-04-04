@@ -1,0 +1,78 @@
+{
+    "id":  "68f25b8d-739b-4f85-9b25-6dd460a0eccd",
+    "displayName":  "BYOD-Better-Require MFA for Office 365 using Browser Only with Session Control on PC or Mac",
+    "createdDateTime":  "2020-07-02T13:10:04.2600299Z",
+    "modifiedDateTime":  null,
+    "state":  "enabledForReportingButNotEnforced",
+    "conditions":  {
+                       "userRiskLevels":  [
+
+                                          ],
+                       "signInRiskLevels":  [
+
+                                            ],
+                       "clientAppTypes":  [
+                                              "browser"
+                                          ],
+                       "platforms":  null,
+                       "locations":  null,
+                       "deviceStates":  null,
+                       "devices":  null,
+                       "applications":  {
+                                            "includeApplications":  [
+                                                                        "Office365"
+                                                                    ],
+                                            "excludeApplications":  [
+
+                                                                    ],
+                                            "includeUserActions":  [
+
+                                                                   ]
+                                        },
+                       "users":  {
+                                     "includeUsers":  [
+
+                                                      ],
+                                     "excludeUsers":  [
+
+                                                      ],
+                                     "includeGroups":  [
+                                                           "BYOD-Better-PC-Users-Enabled"
+                                                       ],
+                                     "excludeGroups":  [
+                                                           "BYOD-Good-PC-Users-Enabled"
+                                                       ],
+                                     "includeRoles":  [
+
+                                                      ],
+                                     "excludeRoles":  [
+
+                                                      ]
+                                 }
+                   },
+    "grantControls":  {
+                          "operator":  "OR",
+                          "builtInControls":  [
+                                                  "mfa"
+                                              ],
+                          "customAuthenticationFactors":  [
+
+                                                          ],
+                          "termsOfUse":  [
+
+                                         ]
+                      },
+    "sessionControls":  {
+                            "applicationEnforcedRestrictions":  null,
+                            "persistentBrowser":  null,
+                            "cloudAppSecurity":  {
+                                                     "cloudAppSecurityType":  "mcasConfigured",
+                                                     "isEnabled":  true
+                                                 },
+                            "signInFrequency":  {
+                                                    "value":  1,
+                                                    "type":  "hours",
+                                                    "isEnabled":  true
+                                                }
+                        }
+}

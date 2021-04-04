@@ -1,0 +1,71 @@
+{
+    "id":  "cdec46c4-ae45-4427-aee2-33d9ba109cb2",
+    "displayName":  "BYOD-Best-Block access to Windows Virtual Desktop and Office 365 using Browser or Modern Apps with Sign-in Risk Medium and High on all platforms",
+    "createdDateTime":  null,
+    "modifiedDateTime":  "2020-07-02T13:15:48.0722339Z",
+    "state":  "enabledForReportingButNotEnforced",
+    "sessionControls":  null,
+    "conditions":  {
+                       "userRiskLevels":  [
+
+                                          ],
+                       "signInRiskLevels":  [
+                                                "high",
+                                                "medium"
+                                            ],
+                       "clientAppTypes":  [
+                                              "browser",
+                                              "mobileAppsAndDesktopClients"
+                                          ],
+                       "platforms":  null,
+                       "locations":  null,
+                       "deviceStates":  null,
+                       "devices":  null,
+                       "applications":  {
+                                            "includeApplications":  [
+                                                                        "9cdead84-a844-4324-93f2-b2e6bb768d07",
+                                                                        "9ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7",
+                                                                        "Office365"
+                                                                    ],
+                                            "excludeApplications":  [
+
+                                                                    ],
+                                            "includeUserActions":  [
+
+                                                                   ]
+                                        },
+                       "users":  {
+                                     "includeUsers":  [
+
+                                                      ],
+                                     "excludeUsers":  [
+
+                                                      ],
+                                     "includeGroups":  [
+                                                           "BYOD-Best-PC-Users-Enabled "
+                                                       ],
+                                     "excludeGroups":  [
+                                                           "BYOD-Good-PC-Users-Enabled",
+                                                           "BYOD-Better-PC-Users-Enabled"
+                                                       ],
+                                     "includeRoles":  [
+
+                                                      ],
+                                     "excludeRoles":  [
+
+                                                      ]
+                                 }
+                   },
+    "grantControls":  {
+                          "operator":  "OR",
+                          "builtInControls":  [
+                                                  "block"
+                                              ],
+                          "customAuthenticationFactors":  [
+
+                                                          ],
+                          "termsOfUse":  [
+
+                                         ]
+                      }
+}

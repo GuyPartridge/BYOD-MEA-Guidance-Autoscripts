@@ -1,0 +1,80 @@
+{
+    "id":  "5d270ca2-c943-44c6-b863-00342aaa916e",
+    "displayName":  "BYOD-Common-Block unapproved apps",
+    "createdDateTime":  "2020-07-02T13:10:06.3623134Z",
+    "modifiedDateTime":  null,
+    "state":  "enabledForReportingButNotEnforced",
+    "sessionControls":  null,
+    "conditions":  {
+                       "userRiskLevels":  [
+
+                                          ],
+                       "signInRiskLevels":  [
+
+                                            ],
+                       "clientAppTypes":  [
+                                              "browser",
+                                              "mobileAppsAndDesktopClients"
+                                          ],
+                       "locations":  null,
+                       "deviceStates":  null,
+                       "devices":  null,
+                       "applications":  {
+                                            "includeApplications":  [
+                                                                        "All"
+                                                                    ],
+                                            "excludeApplications":  [
+                                                                        "9ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7",
+                                                                        "Office365"
+                                                                    ],
+                                            "includeUserActions":  [
+
+                                                                   ]
+                                        },
+                       "users":  {
+                                     "includeUsers":  [
+
+                                                      ],
+                                     "excludeUsers":  [
+
+                                                      ],
+                                     "includeGroups":  [
+                                                           "BYOD-Good-Mobile Device-Users-Enabled",
+                                                           "BYOD-Good-PC-Users-Enabled",
+                                                           "BYOD-Better-Mobile Device-Users-Enabled",
+                                                           "BYOD-Better-PC-Users-Enabled",
+                                                           "BYOD-Best-Mobile Device-Users-Enabled",
+                                                           "BYOD-Best-PC-Users-Enabled "
+                                                       ],
+                                     "excludeGroups":  [
+
+                                                       ],
+                                     "includeRoles":  [
+
+                                                      ],
+                                     "excludeRoles":  [
+
+                                                      ]
+                                 },
+                       "platforms":  {
+                                         "includePlatforms":  [
+                                                                  "all"
+                                                              ],
+                                         "excludePlatforms":  [
+
+                                                              ]
+                                     }
+                   },
+    "grantControls":  {
+                          "operator":  "OR",
+                          "builtInControls":  [
+                                                  "block"
+                                              ],
+                          "customAuthenticationFactors":  [
+
+                                                          ],
+                          "termsOfUse":  [
+
+                                         ]
+                      }
+}
