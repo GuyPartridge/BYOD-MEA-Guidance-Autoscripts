@@ -1,8 +1,10 @@
 # BYOD-MEA-Guidance-Autoscripts
 BYOD-MEA-Guidance-Auto
-This GitHub is for Automating the BYOD MEA advice provided here: https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/133/2021/03/MEA-Blueprint-for-BYOD-Use-v1.0-Final-Version.pdf
+This GitHub is for Automating the BYOD MEA advice provided here: 
+https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/133/2021/03/MEA-Blueprint-for-BYOD-Use-v1.0-Final-Version.pdf
 
-The full article can be found here:https://news.microsoft.com/en-xm/2021/03/18/how-to-have-secure-remote-working-with-a-byod-policy/
+The full article can be found here:
+https://news.microsoft.com/en-xm/2021/03/18/how-to-have-secure-remote-working-with-a-byod-policy/
 
 A large number of the scripts are based on the PowerShell scripts created by Dave Falkus which can be found here: https://github.com/davefalkus/powershell-intune-samples
 These scripts were created by and cloned from Matthew Pottinger's Github. Thanks Mat for all your help! https://github.com/matthewpottinger/BYOD-UK-Blueprint-AutoScripts
